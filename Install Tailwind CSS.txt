@@ -1,0 +1,22 @@
+Install Tailwind CSS
+npm install tailwindcss @tailwindcss/cli
+
+Import Tailwind in your CSS
+src/input.css
+@import "tailwindcss";
+
+Start the Tailwind CLI build process
+npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
+
+Extensao VS CODE 
+Tailwind CSS IntelliSense
+
+rettier-plugin-tailwindcss
+npm install -D prettier prettier-plugin-tailwindcss
+Prettier - Code formatter
+
+.prettierrc
+// .prettierrc
+{
+  "plugins": ["prettier-plugin-tailwindcss"]
+}
