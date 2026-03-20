@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+
+  <body
+    class="flex min-h-screen items-center justify-center bg-gray-100 p-4 dark:bg-gray-900"
+  >
+    <div
+      class="w-full max-w-md space-y-6 rounded-2xl bg-white p-8 shadow-lg duration-300 dark:bg-gray-800"
+    >
+      <h2 class="text-center text-3xl font-bold text-gray-800 dark:text-white">
+        Bem-vindo de volta
+      </h2>
+      <p class="text-center text-sm text-gray-500 dark:text-gray-300">
+        Faça login para continuar
+      </p>
+
+      <form class="space-y-4">
+        <div>
+          <label
+            class="mb-1 block text-sm font-medium text-gray-700 dark:text-gray-300"
+            for="email"
+          >
+            E-mail
+          </label>
+          <input
+            id="email"
+            type="email"
+            placeholder="seu@email.com"
+            class="w-full rounded-md border border-gray-300 bg-white px-4 py-2 text-gray-900 focus:ring-2 focus:ring-blue-500 focus:outline-none dark:border-gray-600 dark:bg-gray-700 dark:text-white"
+          />
+        </div>
+        <div>
+          <label
+            class="mb-1 block text-sm font-medium text-gray-700 dark:text-gray-300"
+            for="password"
+          >
+            Senha
+          </label>
+          <input
+            id="password"
+            type="password"
+            placeholder="********"
+            class="w-full rounded-md border border-gray-300 bg-white px-4 py-2 text-gray-900 focus:ring-2 focus:ring-blue-500 focus:outline-none dark:border-gray-600 dark:bg-gray-700 dark:text-white"
+          />
+        </div>
+
+        <div class="flex items-center justify-end">
+          <a href="#" class="text-blue-600 hover:underline dark:text-blue-400">
+            Esqueceu a senha?
+          </a>
+        </div>
+
+        <button
+          type="submit"
+          class="w-full cursor-pointer rounded-md bg-blue-600 py-2 font-semibold text-white duration-200 hover:bg-blue-700"
+        >
+          Entrar
+        </button>
+      </form>
+
+      <p class="text-center text-sm text-gray-500 dark:text-gray-400">
+        Não tem uma conta?
+        <a href="#" class="text-blue-600 hover:underline dark:text-blue-400">
+          Cadastre-se
+        </a>
+      </p>
+    </div>
+  </body>
+</html>
