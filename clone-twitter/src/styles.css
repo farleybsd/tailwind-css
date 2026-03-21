@@ -1,0 +1,31 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import 'tailwindcss';
+
+:root {
+  --color-text: #14171a;
+  --color-blue: #1d9bf0;
+  --color-hover: #f5f8fa;
+  --color-gray: #657786;
+  --color-border: #e1e8ed;
+  --color-trends: #e2eaf0e3;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-text: #d9d9d9;
+    --color-hover: #161616;
+    --color-gray: #6e767d;
+    --color-border: #2f3336;
+    --color-trends: #202327;
+  }
+}
+
+@theme {
+    --color-text: var(--color-text);
+    --color-blue: var(--color-blue);
+    --color-hover: var(--color-hover);
+    --color-gray: var(--color-gray);
+    --color-border: var(--color-border);
+    --color-trends: var(--color-trends);
+}
