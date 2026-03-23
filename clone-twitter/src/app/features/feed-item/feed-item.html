@@ -7,12 +7,12 @@
 
       <div class="space-y-1">
         <div class="flex items-center gap-2">
-          <div class="text-text text-[15px] font-semibold">{{ title }}</div>
+          <div class="text-text text-[15px] font-semibold">{{ title() }}</div>
           <svg BadgeCheck class="text-blue -ml-1 size-4" fill="#1c8fdb53" />
-          <div class="text-gray text-sm lowercase">@{{title}}</div>
+          <div class="text-gray text-sm lowercase">@{{title()}}</div>
           <div class="text-gray text-sm lowercase">• 7m</div>
         </div>
-        <div class="text-text text-sm">{{description}}</div>
+        <div class="text-text text-sm">{{description()}}</div>
         <div class="mt-5 flex items-center gap-7">
           <div class="flex items-center gap-1.5">
             <svg MessageCircle class="text-gray size-4" />
