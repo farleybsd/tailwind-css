@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+
+  <!--
+    Nesta aula vamos ver : mobile-first
+     - breakpoints:
+      - sm: 640px Smartphones
+      - md: 768px Tablets
+      - lg: 1024px Desktops
+      - xl: 1280px Large Desktops
+      - 2xl: 1536px Extra Large Desktops
+ -->
+
+  <body
+  <div class="flex items-center justify-center gap-4 h-screen">
+    <div class="w-56 bg-sky-500 text-white rounded-md p-4 hidden md:block">Smartphones 640px</div>
+    <div class="w-56 bg-yellow-500 text-white rounded-md p-4 hidden lg:block">Tablets 768px</div>
+    <div class="w-56 bg-orange-500 text-white rounded-md p-4 hidden xl:block">Desktops 1024px</div>
+    <div class="w-96 bg-red-500 text-white rounded-md p-4">Large Desktops 1280px</div>
+    <div class="w-[400px] bg-indigo-500 text-white rounded-md p-4 hidden 2xl:block">Extra Large Desktops 1536px</div>
+  </div>
+  </body>
+</html>

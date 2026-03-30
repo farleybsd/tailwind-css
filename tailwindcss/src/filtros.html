@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="./output.css" rel="stylesheet" />
+</head>
+
+<!--
+    Nesta aula vamos ver : 
+    - Blur,GrayScale e Brackdrop
+    
+ -->
+
+<body>
+  <div class="size-20 bg-indigo-600 blur-lg">
+    <!-- Blur -->
+  </div>
+  <div class=" relative flex items-center justify-center">
+    <img
+      src="https://img.freepik.com/fotos-premium/foto-de-grande-angular-de-uma-unica-arvore-crescendo-sob-um-ceu-nublado-durante-um-por-do-sol-cercado-por-grama_181624-22807.jpg?semt=ais_hybrid" />
+    <diV class="absolute size-32 border border-white rounded-md backdrop-blur-md">
+
+    </diV>
+  </div>
+
+  <div class=" relative flex items-center justify-center grayscale">
+    <img
+      src="https://img.freepik.com/fotos-premium/foto-de-grande-angular-de-uma-unica-arvore-crescendo-sob-um-ceu-nublado-durante-um-por-do-sol-cercado-por-grama_181624-22807.jpg?semt=ais_hybrid" />
+    <diV class="absolute size-32 border border-white rounded-md backdrop-blur-md">
+
+    </diV>
+  </div>
+  <button disabled class="bg-indigo-600 p-4 font-bold text-white rounded-md disabled:grayscale">Meu Botao</button>
+</body>
+
+</html>

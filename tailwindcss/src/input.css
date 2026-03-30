@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+
+@theme {
+  --color-primary: #1fb6ff;
+  --color-danger: #ef4444;
+  --color-success: #22c55e;
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-indigo-500 text-white py-1 px-6 rounded-md duration-500 hover:bg-indigo-700;
+  }
+
+  .btn-danger {
+    @apply text-white py-1 px-6 rounded-md duration-500 bg-red-500 hover:bg-red-700;
+  }
+
+  .btn-success {
+    @apply text-white py-1 px-6 rounded-md duration-500 bg-green-500 hover:bg-emerald-700;
+  }
+}
