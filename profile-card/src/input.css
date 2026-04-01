@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@import "tailwindcss";
+
+@theme {
+  /* cores base */
+  --color-primary: #0571ED;
+
+  /* CTA */
+  --color-cta-primary: #1F242F;
+  --color-cta-secondary: #6B7387;
+  --color-cta-tertiary: #AFB7CD;
+
+  /* tipografia */
+  --font-sans: "Inter", sans-serif;
+}
